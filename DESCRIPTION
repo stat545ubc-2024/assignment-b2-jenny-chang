@@ -1,17 +1,20 @@
 Package: countunique
 Title: An R package to Count Unique Values by Group
 Version: 0.1.0
-Authors@R: 
+Author: 
     person("Chang", "Jenny", , "cychang428@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0009-0007-8396-3281"))
+Maintainer: Jenny Chang <cychang428@gmail.com>
 Description: Contains a function that counts the number of unique values
     in a column when grouping by one or more variables.
 License: MIT + file LICENSE
 URL: https://github.com/jenny-cy-chang/countunique
-Imports: 
+Imports:
     dplyr,
-    palmerpenguins,
-    testthat
+    tibble
+Suggests:
+    testthat,
+    palmerpenguins
 Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
