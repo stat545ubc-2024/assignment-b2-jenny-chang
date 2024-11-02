@@ -10,8 +10,7 @@ Description: Contains a function that counts the number of unique values
 License: MIT + file LICENSE
 URL: https://github.com/jenny-cy-chang/countunique
 Imports:
-    dplyr,
-    tibble
+    dplyr
 Suggests:
     testthat,
     palmerpenguins
