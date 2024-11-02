@@ -1,7 +1,5 @@
-library(testthat)
-library(palmerpenguins)
 library(dplyr)
-
+library(palmerpenguins)
 
 test_that("count_unique function correctly counts unique species by island", {
 
