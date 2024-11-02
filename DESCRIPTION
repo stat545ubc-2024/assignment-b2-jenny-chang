@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Chang", "Jenny", , "cychang428@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0009-0007-8396-3281"))
-Description: Contains a function that counts unique values when grouping by one or more variables.
+Description: Contains a function that counts the number of unique values in a column when grouping by one or more variables.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
