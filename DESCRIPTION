@@ -4,10 +4,14 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Chang", "Jenny", , "cychang428@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0009-0007-8396-3281"))
-Description: Contains a function that counts unique values by group
+Description: Contains a function that counts unique values by group.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Imports: 
     dplyr
+Suggests: 
+    testthat (>= 3.0.0),
+    palmerpenguins
+Config/testthat/edition: 3
