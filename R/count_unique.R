@@ -1,3 +1,4 @@
+#' @importFrom dplyr %>%
 count_unique <- function(data, summ_var, ..., .groups = "drop") {
   data %>%
     dplyr::group_by(...) %>%
