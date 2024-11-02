@@ -6,7 +6,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of countunique is to provide a function that can calculates the
+The goal of countunique is to provide a function that can calculate the
 number of unique values in a specified column when grouping by one or
 more variables.
 
@@ -16,8 +16,8 @@ You can install the development version of countunique from
 [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("pak")
-pak::pak("stat545ubc-2024/assignment-b2-jenny-chang")
+# install.packages("devtools")
+devtools::install_github("stat545ubc-2024/assignment-b2-jenny-chang", ref = "0.1.0")
 ```
 
 ## Example
