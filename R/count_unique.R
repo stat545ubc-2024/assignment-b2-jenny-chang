@@ -12,7 +12,7 @@
 #' @importFrom dplyr %>%
 #'
 #' @examples
-#' data <- tibble::tibble(
+#' data <- data.frame(
 #'   category = c("A", "A", "B", "B", "C"),
 #'   subgroup = c(1, 1, 2, 2, 1),
 #'   value = c(10, 20, 10, NA, 30)

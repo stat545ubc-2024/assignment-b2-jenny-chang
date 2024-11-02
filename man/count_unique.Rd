@@ -22,7 +22,7 @@ A tibble with one row per group and a column \code{unique_sum}, showing the coun
 This function calculates the number of unique values in a specified column (\code{summ_var}) within each group defined by one or more grouping variables. It is useful for understanding the distribution of unique values within groups.
 }
 \examples{
-data <- tibble::tibble(
+data <- data.frame(
   category = c("A", "A", "B", "B", "C"),
   subgroup = c(1, 1, 2, 2, 1),
   value = c(10, 20, 10, NA, 30)
